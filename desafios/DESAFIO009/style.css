@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+
+body {
+   background-color: black; font-family: 'arial-black', Courier, monospace;
+   color: white;
+   text-align: center;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;  
+    color: white;
+}
+a { 
+    color: white;
+}

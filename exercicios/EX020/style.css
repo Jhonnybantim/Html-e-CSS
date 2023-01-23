@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+/* deixar este codigo graavado em sua mente pois divs,são coisas que mais vejo no codigo guarda isso*/
+div {
+    display: inline-block;
+   background-color: rgb(97, 99, 95);
+   border: 1px;
+   text-align: center;
+   width: 200px;
+   height: 200px;
+       
+}
+    div:hover {
+    background-color: rgb(68, 6, 214);
+    
+}
