@@ -3,4 +3,4 @@
 
 Estou apredendo a criar sites e agora eu vou gerencias meu repositório"!
 
-<a href="https://jhonnybantim.github.io/Html-e-CSS/exercicios/EX001/index.html" Target="_blank" > Verificar e executar o exercicio  001.</a>
+<a href="https://jhonnybantim.github.io/Html-e-CSS/exercicios/EX001/index.html "Target="_blank"> Verificar e executar o exercicio  001.</a>
