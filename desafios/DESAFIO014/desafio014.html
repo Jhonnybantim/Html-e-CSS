@@ -16,6 +16,10 @@ table{
 .texto{ 
     text-align: left;
 }
+.lateral {
+    background-color: white;
+    color: black;
+}
 
     td, th { 
             width: 60px;
@@ -41,25 +45,25 @@ table{
         
         <thead>
             <tr>
-                <th rowspan="2">
+                <th rowspan="2" scope="col" >
                     Área
                 </th>
-                <th rowspan="2">
+                <th rowspan="2" scope="col">
                     Disciplina
                 </th>
-                <th colspan="2">
+                <th colspan="2" scope="colgroup" >
                     Notas
                 </th>  
-                <th rowspan="2" >
+                <th rowspan="2" scope="col" >
                     Média
                 </th>                         
             </tr>
 
             <tr>
-                <th>
+                <th scope="col" >
                     Nota 1
                 </th >
-                <th>
+                <th scope="col" >
                     Nota 2
                 </th >                           
             </tr>
@@ -68,9 +72,10 @@ table{
 
         <tbody>
             <tr >
-                <td rowspan="5" >
+                <th rowspan="5" scope="rowgro" class="lateral" >
+
                     <strong>Extras</strong>
-                </td>
+                </th>
                 <tr> <td>Matematica</td>
                     <td>0.0</td>
                     <td>0.0</td>
@@ -105,10 +110,10 @@ table{
            </tr>
 
 
-           <tr>
-              <td rowspan="2">
-                 <strong>Humanas</strong>
-             </td>
+           <tr >
+              <th rowspan="2" scope="rowgroup" class="lateral" >
+                Humanas
+             </th>
 
             <td>História</td>
             <td>0.0</td>
@@ -122,7 +127,7 @@ table{
           </tr>
 
           <tr >
-            <th colspan="4"  class=" texto">
+            <th colspan="4" scope="row" class="texto">
                 Média de humanas
             </th>
             <th>
